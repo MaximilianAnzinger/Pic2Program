@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="7" height="12" tilewidth="16" tileheight="16" infinite="0" nextobjectid="15">
+ <tileset firstgid="1" name="tiles_dungeon_v1.1" tilewidth="16" tileheight="16" tilecount="480" columns="20">
+  <image source="tiles_dungeon_v1.1.png" width="320" height="384"/>
+ </tileset>
+ <tileset firstgid="481" name="tiles_dungeon_v1.1" tilewidth="16" tileheight="16" tilecount="480" columns="20">
+  <image source="tiles_dungeon_v1.1.png" width="320" height="384"/>
+ </tileset>
+ <tileset firstgid="961" name="tiles_dungeon_v1.1" tilewidth="16" tileheight="16" tilecount="480" columns="20">
+  <image source="tiles_dungeon_v1.1.png" width="320" height="384"/>
+ </tileset>
+ <layer name="Kachelebene 1" width="7" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzbxsDAsBgL3g7EJ4GYC4i5kTAPVByE5YD4ISMDAyMSjS7HCqTZgJgdTQ6kVhKIpYBYGoucLhDrAbE+FrlAKI1uH7K4BB59Ojj0VaKZyYimLxAqfgpHmJ0GYgDJLCB/
+  </data>
+ </layer>
+ <layer name="Schlucht" width="7" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AQAAVAAAQ==
+  </data>
+ </layer>
+ <layer name="graphics" width="7" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAMXJlxy0XikRsoIIrHTZokuteDkTT1AOEzATI=
+  </data>
+ </layer>
+ <objectgroup color="#000001" name="Schlucht" visible="0"/>
+ <objectgroup name="Stein, TreppeRunter">
+  <object id="2" x="0" y="0" width="112" height="16" visible="0"/>
+  <object id="3" x="0" y="16" width="16" height="176" visible="0"/>
+  <object id="4" x="96" y="16" width="16" height="160" visible="0"/>
+  <object id="5" x="16" y="176" width="96" height="16" visible="0"/>
+  <object id="10" x="0" y="0" width="112" height="16"/>
+  <object id="11" x="0" y="16" width="16" height="176"/>
+  <object id="12" x="96" y="16" width="16" height="176"/>
+  <object id="13" x="16" y="176" width="80" height="16"/>
+  <object id="14" x="32" y="160" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="Sonstiges"/>
+</map>

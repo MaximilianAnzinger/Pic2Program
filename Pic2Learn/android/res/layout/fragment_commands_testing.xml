@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ingame.fragments.CommandsFragment">
+
+    <GridView
+        android:id="@+id/imageGridview"
+        android:layout_width="342dp"
+        android:layout_height="218dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:columnWidth="50dp"
+        android:gravity="center"
+        android:horizontalSpacing="2dp"
+        android:numColumns="5"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parserTextView" />
+
+    <Button
+        android:id="@+id/libgdxBtn"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="122dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="START"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cameraFABtn" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/cameraFABtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="58dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:src="@android:drawable/ic_menu_camera"
+        app:backgroundTint="@color/design_color_red"
+        app:layout_constraintEnd_toStartOf="@+id/tableLayout"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageGridview" />
+
+    <TextView
+        android:id="@+id/textViewEingabe"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Eingabe:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageGridview"
+        app:layout_constraintEnd_toStartOf="@+id/parserTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="190dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="27dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintStart_toEndOf="@+id/libgdxBtn"
+        app:layout_constraintTop_toBottomOf="@+id/imageGridview">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/goBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Go"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="160dp"
+                tools:layout_editor_absoluteY="322dp" />
+
+            <Button
+                android:id="@+id/interactBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="interact"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="276dp"
+                tools:layout_editor_absoluteY="320dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/leftBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="left"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="160dp"
+                tools:layout_editor_absoluteY="380dp" />
+
+            <Button
+                android:id="@+id/rightBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="RIGHT"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="276dp"
+                tools:layout_editor_absoluteY="373dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/goBackBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="goBack"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="168dp"
+                tools:layout_editor_absoluteY="444dp" />
+
+            <Button
+                android:id="@+id/blockEndBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="blockEnd"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="278dp"
+                tools:layout_editor_absoluteY="431dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/loopBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Schleife"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="160dp"
+                tools:layout_editor_absoluteY="322dp" />
+
+            <Button
+                android:id="@+id/branchBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Verzweigung"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="276dp"
+                tools:layout_editor_absoluteY="320dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/goalBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Ziel erreicht"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="160dp"
+                tools:layout_editor_absoluteY="322dp" />
+
+            <Button
+                android:id="@+id/noGoalBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Ziel nicht erreicht"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="276dp"
+                tools:layout_editor_absoluteY="320dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/blockedBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="BLOCKED"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="160dp"
+                tools:layout_editor_absoluteY="322dp" />
+
+            <Button
+                android:id="@+id/freeBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="FREI"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="276dp"
+                tools:layout_editor_absoluteY="320dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/classTestBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:text="Classtest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/parserTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/wrongBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="zurück"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/libgdxBtn" />
+
+    <TextView
+        android:id="@+id/parserTextView"
+        android:layout_width="136dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/classTestBtn"
+        app:layout_constraintStart_toEndOf="@+id/textViewEingabe"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

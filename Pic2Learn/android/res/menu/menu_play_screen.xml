@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="de.p2l.ui.ingame.fragments.PlayScreen">
+
+    <item
+        android:id="@+id/Grundlagen"
+        android:orderInCategory="100"
+        android:title="@string/Grundlagen"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/loop"
+        android:orderInCategory="100"
+        android:title="@string/Schleife"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/branch"
+        android:orderInCategory="100"
+        android:title="@string/Verzweigung"
+        app:showAsAction="never" />
+</menu>

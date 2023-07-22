@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="450dp"
+    android:background="@drawable/popupborder">
+
+    <TextView
+        android:id="@+id/loopHeader"
+        android:layout_width="148dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Aufbau Verzweigungen"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/loopHeader"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/branchkey" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/imageView9"
+        android:layout_alignStart="@+id/imageView9"
+        app:srcCompat="@drawable/blockedin" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignStart="@+id/imageView9"
+        app:srcCompat="@drawable/forward" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/imageView11"
+        android:layout_alignStart="@+id/imageView9"
+        app:srcCompat="@drawable/branchkey" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/imageView9"
+        app:srcCompat="@drawable/backward" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignStart="@+id/imageView9"
+        app:srcCompat="@drawable/blockend" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="230dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/loopHeader"
+        android:layout_toEndOf="@+id/imageView9"
+        android:layout_marginStart="3dp"
+        android:text="Beginne eine Verzweigung mit dem passenden Symbol."
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_marginStart="3dp"
+        android:layout_width="230dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/imageView9"
+        android:layout_toEndOf="@+id/imageView9"
+        android:text="Stelle eine Bedingung, die auf wahr oder falsch geprüft wird. Zum Beispiel, ob das nächste Feld blockiert ist."
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="230dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/imageView10"
+        android:layout_toEndOf="@+id/imageView9"
+        android:layout_marginStart="3dp"
+        android:text="Gib eine Sequenz von Symbolen an, die bei einer wahren Bedingung ausgeführt werden soll."
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="230dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/imageView11"
+        android:layout_toEndOf="@+id/imageView9"
+        android:layout_marginStart="3dp"
+        android:text="Optional: Benutze ein weiteres Symbol für eine Verzweigung, um einen alternativen Befehlsblock hinzuzufügen."
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="230dp"
+        android:layout_height="57dp"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@+id/imageView9"
+        android:text="Optional: Definiere die zweite Sequenz. Diese wird nur ausgeführt, falls die obere Bedingung als falsch ausgewertet wurde."
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="230dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="3dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_toEndOf="@+id/imageView9"
+        android:text="Beende eine Verzweigung mit dem Symbol für ein Blockende."
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="goBackBtn"
+        android:text="okay" />
+
+</RelativeLayout>

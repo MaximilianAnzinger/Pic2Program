@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pic2Learn</string>
+    <!-- Captions for MainMenu -->
+    <string name="options">Optionen</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="rivercrossing">Flussüberquerung</string>
+    <string name="labyrinth">Labyrinth</string>
+    <string name="credits">
+        Pic2Learn ist im Rahmen eines Bachelor-Praktikums der TU München entstanden.</string>
+    <string name="credits2">
+        Leitung</string>
+    <string name="credits3">
+        Dr. Matthias Utesch</string>
+    <string name="credits4">
+        Mitwirkende</string>
+    <string name="credits5">
+        Maximilian Anzinger, Georg Henning, Sonja Krafft, Maximilian Niedermeier</string>
+
+    <!-- Captions for TutorialLevelSelector-->
+    <string name="tls_level_1">Level 1: Laufen</string>
+    <string name="tls_level_2">Level 2: Drehen</string>
+    <string name="tls_level_3">Level 3: Brücken</string>
+    <string name="tls_level_4">Level 4: Schleifen</string>
+    <string name="tls_level_5">Level 5: Verzweigungen</string>
+
+    <string name="easy_level_1">Level 1: Große Schlucht</string>
+    <string name="easy_level_2">Level 2: Großer Kreis</string>
+    <string name="easy_level_3">Level 3: Rechts-Links</string>
+    <string name="easy_level_4">Level 4: Umgekehrter Kreis</string>
+
+    <string name="middle_level_1">Level 1: Zurücktreten 1</string>
+    <string name="middle_level_2">Level 2: Ständiges Prüfen</string>
+    <string name="middle_level_3">Level 3: Von Stein zu Stein</string>
+    <string name="middle_level_4">Level 4: Snake</string>
+
+    <string name="diff_level_1">Level 1: Kreis und Kluft</string>
+    <string name="diff_level_2">Level 2: Zurücktreten 2</string>
+    <string name="diff_level_3">Level 3: Fog of War</string>
+    <string name="diff_level_4">Level 4: Der Wanderer</string>
+
+    <string name="title_activity_play_screen">PlayScreen</string>
+    <string name="tab_text_1">MAP</string>
+    <string name="tab_text_2">BEFEHLE</string>
+    <string name="tab_text_3">ANMERKUNGEN</string>
+    <string name="action_settings">Steuerung</string>
+    <string name="Grundlagen">Spielprinzip</string>
+    <string name="Schleife">Aufbau Schleifen</string>
+    <string name="Verzweigung">Aufbau Verzweigungen</string>
+
+    <!-- PopupText for MapFragment-->
+    <string name="map_popup_1">Willkommen bei Pic2Learn! Hier siehst du die Karte des jeweiligen Levels.
+                        Ziel des Spiels ist es, sich zum weiter oben gelegenen gelben Stein zu bewegen </string>
+    <string name="map_popup_2">Swipe nach rechts, um zu den Befehlen zu wechseln. Dort kannst du Fotos schießen,
+                        die anschließend in Kommandos übersetzt und von deiner Spielfigur ausgeführt werden.
+                        Die genaue Steuerung kannst du jederzeit rechts oben im Menü nachschlagen.</string>
+    <string name="map_popup_3">Ganz rechts befinden sich noch die Anmerkungen.
+                        Vergiss nicht, auch dort vorbeizuschauen, da sich dort sowohl Einschränkungen für das jeweilige Level,
+                        als auch nützliche Tipps befinden. </string>
+
+
+    <!-- Annotations for each Level-->
+    <string name="annt_invalid_level">Error: Invalides Level</string>
+    <string name="annt_level_11">Tutorial Level 1: Laufen\n\nBewege die Spielfigur nach vorne, indem du Bilder vom
+                        Gehen-Symbol machst und anschließend den Start Button drückst.
+    \n\nTIPP: Du kannst auf bestimmte Symbole deiner Befehlskette klicken, um sie auszuwählen.
+    Dein nächster Befehl wird stets nach dem derzeit ausgewählten Symbol angefügt und außerdem wird durch Drücken des Löschen Buttons immer
+    der gerade ausgewählte Befehl gelöscht.</string>
+    <string name="annt_level_12">Tutorial Level 2: Ecken\n\nBewege die Spielfigur ins Ziel und nutze dabei eine Drehung nach rechts.
+                        \nWie alle Symbole genau aussehen, kannst du im Menü nachprüfen.</string>
+    <string name="annt_level_13">Tutorial Level 3: Brücken\n\nBewege die Spielfigur nicht in die Schlucht! Baue vor Abgründen eine begehbare Brücke.\nWie alle Symbole genau aussehen, kannst du
+                        im Menü nachprüfen.</string>
+    <string name="annt_level_14">Tutorial Level 4: Schleifen\n\nBenutze eine Schleife, um ins Ziel zu gelangen! Alle Befehle innerhalb einer Schleife
+                        werden ausgeführt, solange deine Schleifen-Bedingung erfüllt ist. Nutze in diesem Fall die Bedingung, dass das Ziel noch nicht erreicht ist und als Befehlsblock das Gehen-Symbol.
+        \nWie eine Schleife genau aufgebaut ist, solltest du noch im Menü nachprüfen.</string>
+    <string name="annt_level_15">Tutorial Level 5: Verzweigungen\n\nBenutze eine Verzweigung innerhalb einer Schleife! Diese lässt die Figur je nach Spielsituation unterschiedliche Befehlsblöcke ausführen.
+        Nutze in diesem Fall für die Bedingung der Verzweigung das Symbol für einen freien Weg und als ersten Befehlsblock das Gehen-Symbol.
+        Verwende im zweiten Befehlsblock das Symbol für eine Interaktion.\nWie eine Verzweigung genau aufgebaut ist, solltest du noch im Menü nachprüfen.</string>
+
+    <string name="annt_level_21">Einfach Level 1: Große Schlucht\n\nNutze nun das Gelernte aus den Tutorials und versuche alle Sterne zu sammeln.</string>
+    <string name="annt_level_22">Einfach Level 2: Großer Kreis\n\nNutze nun das Gelernte aus den Tutorials und versuche alle Sterne zu sammeln.</string>
+    <string name="annt_level_23">Einfach Level 3: Rechts-Links\n\nDieses Level kann auf 2 verschiedene Arten gelöst werden.</string>
+    <string name="annt_level_24">Einfach Level 4: Umgekehrter Kreis\n\nOrientiere dich an deiner Lösung für das Level *Großer Kreis*.</string>
+
+    <string name="annt_level_31">Mittel Level 1: Zurücktreten 1\n\nDie folgenden Level werden schwieriger, sind für dich aber sicher kein Problem.</string>
+    <string name="annt_level_32">Mittel Level 2: Ständiges Prüfen\n\nDer Name ist Programm..</string>
+    <string name="annt_level_33">Mittel Level 3: Von Stein zu Stein\n\nAuch die Wand besteht aus Stein..</string>
+    <string name="annt_level_34">Mittel Level 4: Snake\n\nFalls dir das Level zu schwer fällt, kannst du im Shop einen hilfreichen Tipp kaufen.</string>
+
+    <string name="annt_level_41">Schwer Level 1: Kreis und Kluft\n\nOrientiere dich an deiner Lösung für das Level *Großer Kreis*.\nFalls dir das Level dennoch zu schwer fällt, kannst du im Shop einen hilfreichen Tipp kaufen.</string>
+    <string name="annt_level_42">Schwer Level 2: Zurücktreten 2\n\nOrientiere dich an deiner Lösung für das Level *Zurücktreten 1*.</string>
+    <string name="annt_level_43">Schwer Level 3: Fog of War\n\nIn diesem Level befindet sich keine Schlucht!\nDie dunklen Felder werden aufgedeckt, sobald du dich ihnen näherst.\nFalls dir das Level zu schwer fällt, kannst du im Shop einen hilfreichen Tipp kaufen.</string>
+    <string name="annt_level_44">Schwer Level 4: Der Wanderer\n\nNach diesem Level gehts ran an die echten Programmiersprachen :)</string>
+
+
+    <!-- Text for Camera Functions-->
+    <string name="input_dialog_textview">Dein Foto wurde erkannt als: </string>
+    <string name="input_dialog_accept">Behalten</string>
+    <string name="input_dialog_decline">Verwerfen</string>
+
+    <!-- Text for Shared Preferences-->
+    <string name="inputList_key">inputList</string>
+    <string name="selected_position_key">selectedPosition</string>
+
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+</resources>

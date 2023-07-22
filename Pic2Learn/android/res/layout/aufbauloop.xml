@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:background="@drawable/popupborder">
+
+    <TextView
+        android:id="@+id/loopHeader"
+        android:layout_width="148dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Aufbau Schleifen"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/loopHeader"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/loopkey" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/imageView9"
+        android:layout_alignStart="@+id/imageView9"
+        app:srcCompat="@drawable/nogoalin" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignStart="@+id/imageView9"
+        app:srcCompat="@drawable/forward" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/imageView11"
+        android:layout_alignStart="@+id/imageView9"
+        app:srcCompat="@drawable/blockend" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="230dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/loopHeader"
+        android:layout_toEndOf="@+id/imageView9"
+        android:layout_marginStart="3dp"
+        android:text="Beginne eine Schleife mit dem passenden Schleifen-Symbol."
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="230dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/imageView9"
+        android:layout_toEndOf="@+id/imageView9"
+        android:layout_marginStart="3dp"
+        android:text="Stelle eine Bedingung, die angibt wie lange deine Schleife durchlaufen wird. Zum Beispiel, solange das Ziel noch nicht erreicht ist."
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="230dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/imageView10"
+        android:layout_toEndOf="@+id/imageView9"
+        android:layout_marginStart="3dp"
+        android:text="Gib eine Sequenz von Symbolen an, die wiederholt ausgefüht werden soll."
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView11"
+        android:layout_toEndOf="@+id/imageView9"
+        android:layout_marginStart="3dp"
+        android:text="Beende die Schleife mit dem Symbol für ein Blockende."
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="goBackBtn"
+        android:text="okay" />
+
+</RelativeLayout>

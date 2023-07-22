@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="240dp"
+    android:layout_height="315dp"
+    android:background="@drawable/popupborder">
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="200dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:gravity="center"
+        android:text="xxx"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/headerTextView2"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:text="geschafft"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/zuegeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        android:text="Anzahl der Züge:" />
+
+    <TextView
+        android:id="@+id/pic2talerNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="122dp"
+        android:text="Erhaltene Pic2Taler:" />
+
+    <TextView
+        android:id="@+id/maybeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp"
+        android:text="Neues Level freigeschalten!" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="goBackBtn"
+        android:text="okay" />
+
+    <ImageView
+        android:id="@+id/starImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/headerTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-49dp"
+        android:visibility="visible"
+        android:src="@android:drawable/btn_star_big_on" />
+
+    <ImageView
+        android:id="@+id/starImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/headerTextView"
+        android:layout_alignTop="@+id/starImage2"
+        android:visibility="visible"
+        android:src="@android:drawable/btn_star_big_on" />
+
+    <ImageView
+        android:id="@+id/starImage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/headerTextView"
+        android:layout_alignEnd="@+id/headerTextView"
+        android:layout_marginBottom="-49dp"
+        android:src="@android:drawable/btn_star_big_on" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+backward
+blocked
+branch
+end
+forward
+free
+goal
+interaction
+left
+loop
+nogoal
+right

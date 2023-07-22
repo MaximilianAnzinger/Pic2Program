@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="9" height="16" tilewidth="16" tileheight="16" infinite="0" nextobjectid="136">
+ <tileset firstgid="1" name="tiles_dungeon_v1.1" tilewidth="16" tileheight="16" tilecount="480" columns="20">
+  <image source="tiles_dungeon_v1.1.png" width="320" height="384"/>
+ </tileset>
+ <tileset firstgid="481" name="tiles_dungeon_v1.1" tilewidth="16" tileheight="16" tilecount="480" columns="20">
+  <image source="tiles_dungeon_v1.1.png" width="320" height="384"/>
+ </tileset>
+ <tileset firstgid="961" name="tiles_dungeon_v1.1" tilewidth="16" tileheight="16" tilecount="480" columns="20">
+  <image source="tiles_dungeon_v1.1.png" width="320" height="384"/>
+ </tileset>
+ <tileset firstgid="1441" name="tiles_dungeon_v1.1" tilewidth="16" tileheight="16" tilecount="480" columns="20">
+  <image source="tiles_dungeon_v1.1.png" width="320" height="384"/>
+ </tileset>
+ <layer name="Kachelebene 1" width="9" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzbxsDAsBgP3g7EJ4GYEQlzI2EeqDy6GhheBDUHnxoYxqdmK5oaORz6kdVg889pIsxBdw9IzTYc5iGrweV2bGpg5m3HouYuFv/gCh9kOU0cfj9NhDnYzDuFw8/I5gIAiig5tQ==
+  </data>
+ </layer>
+ <layer name="Schlucht" width="9" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B8AAACQAAB
+  </data>
+ </layer>
+ <layer name="graphics" width="9" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+MGUkrMaTCDWjYGCABwlxAwD6YQDK
+  </data>
+ </layer>
+ <objectgroup name="Schlucht" visible="0"/>
+ <objectgroup name="Stein, TreppeRunter" visible="0">
+  <object id="1" x="0" y="0" width="144" height="16"/>
+  <object id="2" x="0" y="16" width="16" height="240"/>
+  <object id="3" x="16" y="240" width="128" height="16"/>
+  <object id="4" x="128" y="16" width="16" height="224"/>
+  <object id="126" x="112" y="224" width="16" height="16"/>
+  <object id="127" x="16" y="96" width="96" height="16"/>
+  <object id="128" x="96" y="32" width="32" height="16"/>
+  <object id="129" x="96" y="64" width="16" height="32"/>
+  <object id="130" x="32" y="128" width="96" height="16"/>
+  <object id="131" x="32" y="144" width="16" height="48"/>
+  <object id="132" x="16" y="208" width="64" height="16"/>
+  <object id="133" x="64" y="160" width="48" height="16"/>
+  <object id="134" x="64" y="176" width="16" height="32"/>
+  <object id="135" x="96" y="176" width="16" height="64"/>
+ </objectgroup>
+ <objectgroup name="Sonstiges" visible="0" locked="1"/>
+</map>

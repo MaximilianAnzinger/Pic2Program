@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="design_color_red">#d81b60</color>
+    <color name = "backgroundColor">#19219b</color>
+    <color name="soft_blue">#b7ebee</color>
+    <color name="control_background">#cc4285f4</color>
+</resources>

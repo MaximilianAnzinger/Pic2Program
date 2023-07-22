@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="430dp"
+    android:background="@drawable/popupborder">
+
+    <TextView
+        android:id="@+id/spielprinzipHeader"
+        android:layout_width="146dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Spielprinzip"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="71dp"
+        android:text="Bringe die Spielfigur auf die nächste Etage!"
+        android:textAlignment="viewStart"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:text="Mache dafür Fotos von bestimmten Befehlen in der richtigen Reihenfolge!"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_alignStart="@+id/textView14"
+        android:text="Prüfe unter 'Steuerung', welche Befehle durch welche Symbole ausgelöst werden!"
+        android:textAlignment="viewStart"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_alignStart="@+id/textView14"
+        android:text="Berühre weder Wand, Schlucht oder die nach unten führende Treppe."
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="goBackBtn"
+        android:text="okay" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView18"
+        android:layout_alignStart="@+id/textView14"
+        android:text="Achte darauf, genau auf dem Ziel zu landen. Von welcher Seite man auf die Treppe tritt, ist egal."
+        android:textSize="17sp" />
+</RelativeLayout>

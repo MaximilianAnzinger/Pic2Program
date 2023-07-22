@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="9" height="16" tilewidth="16" tileheight="16" infinite="0" nextobjectid="153">
+ <tileset firstgid="1" name="tiles_dungeon_v1.1" tilewidth="16" tileheight="16" tilecount="480" columns="20">
+  <image source="tiles_dungeon_v1.1.png" width="320" height="384"/>
+ </tileset>
+ <tileset firstgid="481" name="tiles_dungeon_v1.1" tilewidth="16" tileheight="16" tilecount="480" columns="20">
+  <image source="tiles_dungeon_v1.1.png" width="320" height="384"/>
+ </tileset>
+ <tileset firstgid="961" name="tiles_dungeon_v1.1" tilewidth="16" tileheight="16" tilecount="480" columns="20">
+  <image source="tiles_dungeon_v1.1.png" width="320" height="384"/>
+ </tileset>
+ <tileset firstgid="1441" name="tiles_dungeon_v1.1" tilewidth="16" tileheight="16" tilecount="480" columns="20">
+  <image source="tiles_dungeon_v1.1.png" width="320" height="384"/>
+ </tileset>
+ <layer name="Kachelebene 1" width="9" height="16">
+  <data encoding="base64" compression="zlib">
+   eJytkrEKgDAMROPgb2T3s8U5GXVut9qfMoJDOMJNDo9SeFeOpKeIHIQrGMFCGMnpgQUetO+OToO8FY6D4+BoyjU4s9Mhj3005UzqPlrk/+hjpM++8jnjfF42cKxw8B2201v435jBA+p4OfI=
+  </data>
+ </layer>
+ <layer name="Schlucht" width="9" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuUMGCsanBxydVDTo9VNQQGz6MRKjBBiyIUEMpAACJNwRy
+  </data>
+ </layer>
+ <layer name="graphics" width="9" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg4YMpIWI0nEWpGAXngBRvlZgAAGRcBbw==
+  </data>
+ </layer>
+ <objectgroup name="Schlucht" visible="0">
+  <object id="117" x="32" y="208" width="16" height="16"/>
+  <object id="118" x="32" y="192" width="16" height="16"/>
+  <object id="119" x="32" y="176" width="16" height="16"/>
+  <object id="120" x="32" y="160" width="16" height="16"/>
+  <object id="121" x="32" y="144" width="16" height="16"/>
+  <object id="122" x="32" y="128" width="16" height="16"/>
+  <object id="123" x="32" y="112" width="16" height="16"/>
+  <object id="124" x="32" y="96" width="16" height="16"/>
+  <object id="125" x="32" y="80" width="16" height="16"/>
+  <object id="126" x="32" y="64" width="16" height="16"/>
+  <object id="127" x="32" y="48" width="16" height="16"/>
+  <object id="128" x="32" y="32" width="16" height="16"/>
+  <object id="129" x="48" y="32" width="16" height="16"/>
+  <object id="130" x="64" y="32" width="16" height="16"/>
+  <object id="131" x="80" y="32" width="16" height="16"/>
+  <object id="132" x="96" y="32" width="16" height="16"/>
+  <object id="133" x="96" y="48" width="16" height="16"/>
+  <object id="134" x="96" y="64" width="16" height="16"/>
+  <object id="135" x="96" y="80" width="16" height="16"/>
+  <object id="136" x="96" y="96" width="16" height="16"/>
+  <object id="137" x="64" y="112" width="16" height="16"/>
+  <object id="138" x="64" y="128" width="16" height="16"/>
+  <object id="139" x="64" y="144" width="16" height="16"/>
+  <object id="140" x="64" y="160" width="16" height="16"/>
+  <object id="141" x="80" y="160" width="16" height="16"/>
+  <object id="142" x="96" y="160" width="16" height="16"/>
+  <object id="143" x="96" y="144" width="16" height="16"/>
+  <object id="144" x="96" y="112" width="16" height="16"/>
+  <object id="145" x="96" y="128" width="16" height="16"/>
+  <object id="151" x="64" y="96" width="16" height="16"/>
+  <object id="152" x="64" y="80" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="Stein, TreppeRunter" visible="0">
+  <object id="1" x="0" y="0" width="144" height="16"/>
+  <object id="2" x="0" y="16" width="16" height="240"/>
+  <object id="3" x="16" y="240" width="128" height="16"/>
+  <object id="4" x="128" y="16" width="16" height="224"/>
+  <object id="84" x="16" y="224" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="Sonstiges" visible="0" locked="1"/>
+</map>
